@@ -24,7 +24,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   Seth Taddiken's personal site; showcasing various things I've made!
 domain: "sethtadd.github.io"
 url: "https://sethtadd.github.io"
-baseurl: "."
 github_username: sethtadd
 
 # Build settings
