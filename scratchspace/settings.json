@@ -1,0 +1,36 @@
+{
+    "python.pylanceLspNotebooksEnabled": true,
+    // Using the light mode
+    "indentRainbow.indicatorStyle": "light",
+    // we use a simple 1 pixel wide line
+    "indentRainbow.lightIndicatorStyleLineWidth": 1,
+    // the same colors as above but more visible
+    "indentRainbow.colors": [
+        "rgba(255,255,64,0.3)",
+        "rgba(127,255,127,0.3)",
+        "rgba(255,127,255,0.3)",
+        "rgba(79,236,236,0.3)"
+    ],
+    "python.analysis.typeCheckingMode": "basic",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#0D04A0",
+        "titleBar.activeBackground": "#1306E0",
+        "titleBar.activeForeground": "#FAFAFF"
+    },
+    "python.formatting.provider": "black",
+    // "editor.mouseWheelZoom": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+    },
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "python.linting.flake8Enabled": false,
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": false,
+}
